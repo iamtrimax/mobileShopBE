@@ -1,0 +1,72 @@
+*{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100vw;
+    height: 150px;
+    text-align:center;
+    position:fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+i{
+    font-size: 25px;
+}
+.btnSearch{
+    color: white;
+    /* margin-left: 5px; */
+}
+form{
+    justify-content: center;
+}
+input{
+    width: 400px !important;
+}
+section{
+    margin-top: 250px;
+}
+.menu{
+    width: 1000px;
+}
+.forgotPass:hover{
+  text-decoration: underline !important;
+}
+.navbar {
+    white-space: nowrap!important; /* Ngăn chữ xuống dòng */
+    flex-wrap: nowrap !important;   /* Ngăn các phần tử xuống dòng */
+}
+.username{
+    color: white;
+}
+.name{
+    margin-left: -30px;
+}
+.dropdown-toggle::after {
+    display: none !important;
+  }
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+  border: none !important;
+  box-shadow: none !important;
+}
+.dropdown-item:hover {
+    background-color: #0d6efd !important; /* Bootstrap primary blue */
+    color: white !important;
+}
+
+
+.userInfor{
+    border-bottom: 1px solid gray;
+}
+.user-Product{
+    margin-top: 10px;
+}
+
+ .cursor-pointer{
+    cursor: pointer;
+ } 
+
