@@ -97,9 +97,6 @@ const getDetailProduct= async (req, res) => {
 
     const product = await productModel.findById(productId)
 
-    console.log(product);
-    
-
     res.json({
         data: product,
         error: false,
